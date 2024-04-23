@@ -1,0 +1,98 @@
+.heading {
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    margin: 30px !important;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: button;
+    appearance: button;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn svg {
+    margin-right: 8px;
+}
+
+.btn-reverse {
+    background: #fff;
+    color: #000;
+}
+
+.btn-block {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.form,
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+.form-group label {
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 3px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+/*  Employess */
+
+.table-header {
+    padding: 10px 10px 10px 30px;
+    margin: 0px 50px 15px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.employe-element {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
